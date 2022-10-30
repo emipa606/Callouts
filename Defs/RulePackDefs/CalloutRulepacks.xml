@@ -14,7 +14,7 @@
 			<li>rule->Give them hell, lads</li>
 			<li>rule->Safe travels!</li>
 			
-			<li>rule(MILD!=true)->That cost us an [callout_noun_bodypart_external] and an [callout_noun_bodypart_internal]</li>
+			<li>rule(MILD!=true)->That cost us a [callout_noun_bodypart] and a [callout_noun_bodypart]</li>
 			<li>rule(MILD!=true)->'Cheap wares' my ass</li>
 			<li>rule(MILD!=true)->What a bloody ripoff</li>
 			<li>rule(MILD!=true)->Take the silver and go!</li>

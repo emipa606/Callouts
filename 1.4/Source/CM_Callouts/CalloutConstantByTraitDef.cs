@@ -91,11 +91,12 @@ namespace CM_Callouts
                     toil.initAction = delegate ()
                     {
                         action();
-                    if (toil.actor == null || __instance.Trader as Pawn == null)
+                        Pawn pawn = __instance.GetType().GetProperty("Trader", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance).GetValue(__instance) as Pawn;
+                    if (toil.actor == null || pawn == null)
                         {
                             return;
                         }
-                        new PendingCalloutEventTradeInteraction(toil.actor, __instance.Trader as Pawn,
+                        new PendingCalloutEventTradeInteraction(toil.actor, pawn,
                             CalloutsExpandedDefOf.CalloutsExpanded_RulePack_Trade_Initiated,
                             CalloutsExpandedDefOf.CalloutsExpanded_RulePack_Trade_Received).AttemptCallout();
                     };

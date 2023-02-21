@@ -23,7 +23,22 @@
 	<value>true</value>
   </CM_Callouts.CalloutConstantByTraitDef>
   
-  
+  	<CM_Callouts.CalloutConstantByTraitDef>
+		<defName>CM_Callout_GentleTraits</defName>
+		<traits/>
+		<name>GENTLE</name>
+		<value>true</value>
+	</CM_Callouts.CalloutConstantByTraitDef>
+	<RulePackDef>
+		<defName>CM_Callouts_RulePack_Misc</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>callout_noun_diminutive_human(INITIATOR_gender==Male)->boy</li>
+				<li>callout_noun_diminutive_human(INITIATOR_gender==Female)->girl</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
   <RulePackDef>
     <defName>CM_Callouts_Common</defName>
     <rulePack>

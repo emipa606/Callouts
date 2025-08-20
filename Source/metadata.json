@@ -1,0 +1,17 @@
+{
+  "Continued": true,
+  "CanAdd": "0",
+  "CanRemove": "2",
+  "LastXmlCleaning": "2025-08-20T22:02:01.3931138+02:00",
+  "SocialImageSet": true,
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 68135,
+  "LinesOfXML": 90954,
+  "SearchTags": [
+    " combat",
+    " interaction"
+  ],
+  "PreviewVersion": "1.6"
+}

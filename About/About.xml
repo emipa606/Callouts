@@ -1,27 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Callouts</name>
-	<author>Captain Muscles (Nathan Harbour)</author>
-	<packageId>Bratwurstinator.Callouts</packageId>
-	<url>https://github.com/Bratwurstinator/Callouts/wiki</url>
-	<supportedVersions>
-		<li>1.3</li>
-		<li>1.4</li>
-		<li>1.5</li>
-	</supportedVersions>
-	<description>Adds callouts in text form whenever humanlike pawn triggers certain events.
-Updated to 1.4/1.5 by Bratwurstinator. Original mod by Captain Muscles.</description>
-	<modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
-	</modDependencies>
+  <name>Callouts (Continued)</name>
+  <packageId>Mlie.Callouts</packageId>
+  <author>Captain Muscles (Nathan Harbour)</author>
+  <url>https://github.com/emipa606/Callouts</url>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Captain Muscles (Nathan Harbour)s mod https://steamcommunity.com/sharedfiles/filedetails/?id=2362736503
+Based on Profligates continued version https://steamcommunity.com/sharedfiles/filedetails/?id=2882283988
 
-	<loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>brrainz.harmony</li>
-	</loadAfter>
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/Callouts][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://i.imgur.com/Mi8ecQv.gif[/img]
+Adds callouts in text form that occasionally appear above a pawn's head when certain in-game events occur.
+
+The callouts use the same grammar rules and concepts as log entries, allowing us to play "Mad-libs" with not only random words, but also the properties of the initiator and recipients of the interaction, their weapons, and the cover they're using (and more soon!)
+
+As an added bonus, wounds sustained by a pawn generate text motes (configurable in settings) as do potentially lethal hediffs advancing in severity. See gif below for an example with everything turned way up.
+
+[img]https://i.imgur.com/HHFSQHy.gif[/img]
+
+[hr][/hr]
+Pawns are more likely to use some callouts over others depending on their traits. 'Kind' or 'wimp' colonists will use 'mild' callouts; 'Abrasive', 'Bloodlust', or 'Psychopath' colonists will use 'spicy' callouts.
+
+[u]Current events that can trigger a callout:[/u]
+[i]Combat[/i]
+- Ranged attack
+- Melee attack
+- Ranged attack hitting
+- Melee attack hitting
+- Taking damage from another source
+
+[i]Animal interaction[/i]
+- Being nuzzled
+- Feeding an animal (a wounded animal, or one that is being tamed or trained)
+- Successfully taming an animal
+- Successfully training an animal
+- Tending to a wounded animal
+- Slaughtering an animal
+- More coming very soon!
+
+[i]Other[/i]
+- Lethal hediff advancing to next stage
+- Being drafted
+
+
+Things that can be referenced by the callouts:
+- Various properties of the initiator and recipient of the action
+- Properties of the initiator and recipients weapons (and their projectiles)
+- The cover the initiator and recipient are using
+- Also more coming soon
+
+[b]The current callouts list is a little sparse/repetitive at the moment, so please bear with me as I flesh them out. Also feel free to add your suggestions to the comments![/b]
+
+[h2]Please share your feedback/suggestions![/h2]
+[hr][/hr]
+I'm planning on adding quite a bit to this in the future, more callouts, more callout types (both combat and non-combat), and more filter options (race/kind/etc). Feel free to make suggestions and to beg, harass, or buy me coffee to motivate me to work more rapidly!
+
+[h2]Settings[/h2]
+[hr][/hr]
+[img]https://i.imgur.com/a4QHuWa.png[/img]
+[b]Combat callouts enabled[/b] - Enables/disables all combat callouts.
+[b]Animal interaction callouts enabled[/b] - Enables/disables all animal interaction callouts.
+
+[b]Queue text motes[/b] - When enabled, text motes will be queued and released over time to keep them from overlapping as much.
+[b]Attach callout text to caller[/b] - Makes callouts stay directly over the callers head until they expire
+[b]Draw label backgroud for text motes[/b] - Turn on/off drawing grey label behind callouts and motes making them easier to read
+
+[b]Show wounds[/b] - Turn on/off text motes displaying body parts that sustained wounds
+
+[b]Base callout frequency[/b] - The base chance that any given event can fire a callout
+
+[b]Call out when targeting animals[/b] - Turn on/off showing callouts when the target is not humanlike
+[b]Animals call out[/b] - Allow animals to use callouts
+
+[h2]More Callouts![/h2]
+[hr][/hr]
+Check out の⁠ヮ⁠の 's addon for even more callouts:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2449104349]https://steamcommunity.com/sharedfiles/filedetails/?id=2449104349[/url]
+
+
+[h2]Credits[/h2]
+[hr][/hr]
+Concept: Tallas
+Coding: Captain Muscles
+Inspired by Combat Extended's taunt feature
+
+[hr][/hr]
+Github download link:
+[url=https://github.com/CaptainMuscles/CM_Callouts/releases]https://github.com/CaptainMuscles/CM_Callouts/releases[/url]
+
+[h2]Mods by Captain Muscles[/h2]
+[hr][/hr]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2307817213][img]https://i.imgur.com/VoByiic.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2329172147][img]https://i.imgur.com/74JDWuZ.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2362736503][img]https://i.imgur.com/WG8os6d.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2375902187][img]https://i.imgur.com/fCN25Ys.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2336610918][img]https://i.imgur.com/jxSOtsD.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2353882085][img]https://i.imgur.com/rta4B3f.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2355912467][img]https://i.imgur.com/iEJE3WP.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2359566858][img]https://i.imgur.com/e85mMAF.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2366255005][img]https://i.imgur.com/liOYDNc.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2369675899][img]https://i.imgur.com/NtLQOev.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2369307661][img]https://i.imgur.com/smZOUK8.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2375193973][img]https://i.imgur.com/YwDNpdl.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2380798255][img]https://i.imgur.com/HYnv9r5.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2385755478][img]https://i.imgur.com/lA8ImyW.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2401146569][img]https://i.imgur.com/t7SaJpC.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2403595130][img]https://i.imgur.com/rvZg6ly.png[/img][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2411212162][img]https://i.imgur.com/MYa8nY7.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2446986597][img]https://i.imgur.com/DMXfSaJ.png[/img][/url]
+[hr][/hr]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>

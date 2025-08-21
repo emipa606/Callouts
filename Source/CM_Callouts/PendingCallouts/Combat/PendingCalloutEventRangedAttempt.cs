@@ -1,4 +1,5 @@
-﻿using Verse;
+﻿using RimWorld;
+using Verse;
 using Verse.Grammar;
 
 namespace CM_Callouts.PendingCallouts.Combat;
@@ -16,7 +17,11 @@ public class PendingCalloutEventRangedAttempt(Pawn initiator, Pawn recipient, Ve
             return grammarRequest;
         }
 
-        CalloutUtility.CollectCoverRules(recipient, initiator, "INITIATOR_COVER", verb, ref grammarRequest);
+        if (!StatDefOf.ShootingAccuracyPawn.Worker.IsDisabledFor(recipient))
+        {
+            CalloutUtility.CollectCoverRules(recipient, initiator, "INITIATOR_COVER", verb, ref grammarRequest);
+        }
+
         CalloutUtility.CollectCoverRules(initiator, recipient, "RECIPIENT_COVER", verb, ref grammarRequest);
 
         return grammarRequest;

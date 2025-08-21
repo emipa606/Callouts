@@ -25,6 +25,10 @@
 Update of Captain Muscles (Nathan Harbour)s mod https://steamcommunity.com/sharedfiles/filedetails/?id=2362736503
 Based on Profligates continued version https://steamcommunity.com/sharedfiles/filedetails/?id=2882283988
 
+[b]Profilgates addition[/b]
+I tried contacting CaptainMuscles and even pushing the 1.4 update directly to the github repo, but he simply ignored me. Therefore, i've just uploaded it to steam workshop.
+In doing so, i've merged functionalities from Callouts Extended and Callouts Expanded also.
+
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
@@ -100,39 +104,23 @@ I'm planning on adding quite a bit to this in the future, more callouts, more ca
 [b]Call out when targeting animals[/b] - Turn on/off showing callouts when the target is not humanlike
 [b]Animals call out[/b] - Allow animals to use callouts
 
-[h2]More Callouts![/h2]
-[hr][/hr]
-Check out の⁠ヮ⁠の 's addon for even more callouts:
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2449104349]https://steamcommunity.com/sharedfiles/filedetails/?id=2449104349[/url]
-
-
 [h2]Credits[/h2]
 [hr][/hr]
 Concept: Tallas
 Coding: Captain Muscles
 Inspired by Combat Extended's taunt feature
 
-[hr][/hr]
-Github download link:
-[url=https://github.com/CaptainMuscles/CM_Callouts/releases]https://github.com/CaptainMuscles/CM_Callouts/releases[/url]
-
-[h2]Mods by Captain Muscles[/h2]
-[hr][/hr]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2307817213][img]https://i.imgur.com/VoByiic.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2329172147][img]https://i.imgur.com/74JDWuZ.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2362736503][img]https://i.imgur.com/WG8os6d.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2375902187][img]https://i.imgur.com/fCN25Ys.png[/img][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2336610918][img]https://i.imgur.com/jxSOtsD.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2353882085][img]https://i.imgur.com/rta4B3f.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2355912467][img]https://i.imgur.com/iEJE3WP.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2359566858][img]https://i.imgur.com/e85mMAF.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2366255005][img]https://i.imgur.com/liOYDNc.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2369675899][img]https://i.imgur.com/NtLQOev.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2369307661][img]https://i.imgur.com/smZOUK8.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2375193973][img]https://i.imgur.com/YwDNpdl.png[/img][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2380798255][img]https://i.imgur.com/HYnv9r5.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2385755478][img]https://i.imgur.com/lA8ImyW.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2401146569][img]https://i.imgur.com/t7SaJpC.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2403595130][img]https://i.imgur.com/rvZg6ly.png[/img][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2411212162][img]https://i.imgur.com/MYa8nY7.png[/img][/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2446986597][img]https://i.imgur.com/DMXfSaJ.png[/img][/url]
-[hr][/hr]
-
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] and command Ctrl+F12
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3552812111][img]https://img.shields.io/github/v/release/emipa606/Callouts?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  combat,  interaction</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
 </ModMetaData>

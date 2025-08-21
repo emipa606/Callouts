@@ -76,7 +76,8 @@ public sealed class CalloutTracker : WorldComponent
         }
     }
 
-    public static Thing ThrowText(Thing thing, IntVec3 location, Map map)
+    // ReSharper disable once UnusedParameter.Global Needed for MoteMaker patch
+    public static Thing ThrowText(Thing thing, IntVec3 location, Map map, WipeMode wipeMode = WipeMode.Vanish)
     {
         if (map == null || thing is not MoteText moteText)
         {

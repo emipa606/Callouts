@@ -2,13 +2,13 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "LastXmlCleaning": "2025-08-20T22:02:01.3931138+02:00",
+  "LastXmlCleaning": "2025-08-21T22:46:05.3735691+02:00",
   "SocialImageSet": true,
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 68135,
-  "LinesOfXML": 90954,
+  "LinesOfCode": 69262,
+  "LinesOfXML": 87515,
   "SearchTags": [
     " combat",
     " interaction"

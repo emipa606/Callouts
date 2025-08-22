@@ -1,5 +1,8 @@
 # Changelog for Callouts
 
+1.6.3 - Fixed Elite Bionics Framework compatibility
+
+
 1.6.2 - Added compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1665403571]Elite Bionics Framework[/url]
 
 

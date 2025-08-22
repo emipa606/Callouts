@@ -64,7 +64,7 @@ public static class DamageWorker_DamageResult_AssociateWithLog
             else
             {
                 var partHealth = pawn.health.hediffSet.GetPartHealth(recipientPartsDamaged[i]);
-                var partMaxHealth = recipientPartsDamaged[i].def.GetMaxHealth(pawn);
+                var partMaxHealth = EBFEndpoints_GetMaxHealthWithEBF.GetMaxHealth(recipientPartsDamaged[i], pawn);
                 var partPercentHealth = partHealth / partMaxHealth;
                 bool showWound;
 

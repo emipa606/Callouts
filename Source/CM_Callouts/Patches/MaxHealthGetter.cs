@@ -6,7 +6,7 @@ using Verse;
 namespace CM_Callouts;
 
 [HarmonyPatch]
-public class EBFEndpoints_GetMaxHealthWithEBF
+public class MaxHealthGetter
 {
     public static bool Prepare()
     {

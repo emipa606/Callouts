@@ -29,4 +29,6 @@
   <CM_Callouts_Settings_Do_Callouts_Animal_Label>Animal interaction callouts enabled</CM_Callouts_Settings_Do_Callouts_Animal_Label>
   <CM_Callouts_Settings_Do_Callouts_Animal_Description>Enables/disables all animal interaction callouts.</CM_Callouts_Settings_Do_Callouts_Animal_Description>
   <CM_Callouts_Settings_ModVersion>Installed mod-version: {0}</CM_Callouts_Settings_ModVersion>
+  <CM_Callouts_Settings_No_Swearing_Label>No swearing</CM_Callouts_Settings_No_Swearing_Label>
+  <CM_Callouts_Settings_No_Swearing_Description>Use non-swearing callouts, refrain from bad language</CM_Callouts_Settings_No_Swearing_Description>
 </LanguageData>

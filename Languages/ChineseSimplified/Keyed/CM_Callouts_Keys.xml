@@ -30,4 +30,6 @@
   <CM_Callouts_Settings_Do_Callouts_Animal_Label>启用动物互动标注</CM_Callouts_Settings_Do_Callouts_Animal_Label>
   <CM_Callouts_Settings_Do_Callouts_Animal_Description>启用/禁用所有动物互动提示。</CM_Callouts_Settings_Do_Callouts_Animal_Description>
   <CM_Callouts_Settings_ModVersion>已安装 MOD 版本：{0}</CM_Callouts_Settings_ModVersion>
+  <CM_Callouts_Settings_No_Swearing_Label>无脏话</CM_Callouts_Settings_No_Swearing_Label>
+  <CM_Callouts_Settings_No_Swearing_Description>使用不带脏字的呼号，避免恶语相向</CM_Callouts_Settings_No_Swearing_Description>
 </LanguageData>

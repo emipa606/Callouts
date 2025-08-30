@@ -30,4 +30,6 @@
   <CM_Callouts_Settings_Do_Callouts_Animal_Label>Activation des callouts d'interaction avec les animaux</CM_Callouts_Settings_Do_Callouts_Animal_Label>
   <CM_Callouts_Settings_Do_Callouts_Animal_Description>Active/désactive tous les appels d'interaction avec les animaux.</CM_Callouts_Settings_Do_Callouts_Animal_Description>
   <CM_Callouts_Settings_ModVersion>Version installée du mod : {0}</CM_Callouts_Settings_ModVersion>
+  <CM_Callouts_Settings_No_Swearing_Label>Pas de jurons</CM_Callouts_Settings_No_Swearing_Label>
+  <CM_Callouts_Settings_No_Swearing_Description>Utilisez des textes d'appel non grossiers, évitez le langage grossier.</CM_Callouts_Settings_No_Swearing_Description>
 </LanguageData>

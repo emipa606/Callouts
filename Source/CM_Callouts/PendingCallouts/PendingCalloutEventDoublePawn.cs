@@ -93,6 +93,11 @@ public class PendingCalloutEventDoublePawn(
     protected virtual GrammarRequest PrepareGrammarRequest(RulePackDef rulePack)
     {
         var grammarRequest = new GrammarRequest { Includes = { rulePack } };
+        if (CalloutMod.settings.noSwearing)
+        {
+            grammarRequest.Constants.Add("MILD", "true");
+            grammarRequest.Constants.Add("SPICY", "false");
+        }
 
         CalloutUtility.CollectPawnRules(initiator, "INITIATOR", ref grammarRequest);
 

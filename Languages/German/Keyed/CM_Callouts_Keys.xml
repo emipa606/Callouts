@@ -30,4 +30,6 @@
   <CM_Callouts_Settings_Do_Callouts_Animal_Label>Tier Interaktion Callouts aktiviert</CM_Callouts_Settings_Do_Callouts_Animal_Label>
   <CM_Callouts_Settings_Do_Callouts_Animal_Description>Aktiviert/deaktiviert alle Callouts für Tierinteraktionen.</CM_Callouts_Settings_Do_Callouts_Animal_Description>
   <CM_Callouts_Settings_ModVersion>Installierte Mod-Version: {0}</CM_Callouts_Settings_ModVersion>
+  <CM_Callouts_Settings_No_Swearing_Label>Kein Fluchen</CM_Callouts_Settings_No_Swearing_Label>
+  <CM_Callouts_Settings_No_Swearing_Description>Benutze nicht-schwörende Callouts, verzichte auf Schimpfwörter</CM_Callouts_Settings_No_Swearing_Description>
 </LanguageData>

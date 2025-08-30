@@ -17,6 +17,7 @@ public class CalloutModSettings : ModSettings
     public bool forceInitiatorCallouts;
     public bool forceRecipientCallouts;
     public bool hyperNuzzling;
+    public bool noSwearing;
 
     public bool queueTextMotes = true;
 
@@ -31,6 +32,7 @@ public class CalloutModSettings : ModSettings
 
         Scribe_Values.Look(ref enableCalloutsCombat, "enableCalloutsCombat", true);
         Scribe_Values.Look(ref enableCalloutsAnimal, "enableCalloutsAnimal", true);
+        Scribe_Values.Look(ref noSwearing, "noSwearing");
 
         Scribe_Values.Look(ref queueTextMotes, "queueTextMotes", true);
         Scribe_Values.Look(ref attachCalloutText, "attachCalloutText", true);
@@ -57,8 +59,8 @@ public class CalloutModSettings : ModSettings
             ref enableCalloutsCombat, "CM_Callouts_Settings_Do_Callouts_Combat_Description".Translate());
         listingStandard.CheckboxLabeled("CM_Callouts_Settings_Do_Callouts_Animal_Label".Translate(),
             ref enableCalloutsAnimal, "CM_Callouts_Settings_Do_Callouts_Animal_Description".Translate());
-
-        listingStandard.GapLine();
+        listingStandard.CheckboxLabeled("CM_Callouts_Settings_No_Swearing_Label".Translate(),
+            ref noSwearing, "CM_Callouts_Settings_No_Swearing_Description".Translate());
 
         listingStandard.CheckboxLabeled("CM_Callouts_Settings_Queue_Text_Motes_Label".Translate(), ref queueTextMotes,
             "CM_Callouts_Settings_Queue_Text_Motes_Description".Translate());
@@ -67,8 +69,6 @@ public class CalloutModSettings : ModSettings
         listingStandard.CheckboxLabeled("CM_Callouts_Settings_Draw_Label_Background_For_Text_Motes_Label".Translate(),
             ref drawLabelBackgroundForTextMotes,
             "CM_Callouts_Settings_Draw_Label_Background_For_Text_Motes_Description".Translate());
-
-        listingStandard.GapLine();
 
         listingStandard.Label("CM_Callouts_Settings_Show_Wound_Level_Label".Translate(), -1,
             "CM_Callouts_Settings_Show_Wound_Level_Description".Translate());
@@ -107,8 +107,6 @@ public class CalloutModSettings : ModSettings
             showWoundLevel = ShowWoundLevel.All;
         }
 
-        listingStandard.GapLine();
-
         listingStandard.Label("CM_Callouts_Settings_Base_Callout_Chance_Label".Translate(), -1,
             "CM_Callouts_Settings_Base_Callout_Chance_Description".Translate());
         listingStandard.Label(baseCalloutChance.ToString("P0"));
@@ -122,6 +120,7 @@ public class CalloutModSettings : ModSettings
 
         if (Prefs.DevMode)
         {
+            listingStandard.GapLine();
             listingStandard.Label("Debug settings");
             listingStandard.CheckboxLabeled("showDebugLogMessages", ref showDebugLogMessages);
             listingStandard.CheckboxLabeled("hyperNuzzling", ref hyperNuzzling);

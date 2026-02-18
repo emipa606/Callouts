@@ -11,7 +11,7 @@ public class EBFEndpoints_GetMaxHealthWithEBF
     public static bool Prepare()
     {
         // detect whether the EBF is loaded
-        return LoadedModManager.RunningMods.Any(pack => pack.PackageId == "V1024.EBFramework");
+        return LoadedModManager.RunningMods.Any(pack => pack.PackageId == "v1024.ebframework");
     }
 
     public static MethodBase TargetMethod()

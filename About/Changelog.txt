@@ -1,5 +1,8 @@
 # Changelog for Callouts
 
+1.6.5 - Fixed Elite Bionics Framework patch, thanks Vectorial1024
+
+
 1.6.4 - Added setting for blocking offensive callouts
 Used DeepL to update translations for ChineseSimplified, French, German
 

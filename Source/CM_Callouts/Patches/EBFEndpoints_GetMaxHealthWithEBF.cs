@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using HarmonyLib;
 using Verse;
 
@@ -11,7 +10,7 @@ public class EBFEndpoints_GetMaxHealthWithEBF
     public static bool Prepare()
     {
         // detect whether the EBF is loaded
-        return LoadedModManager.RunningMods.Any(pack => pack.PackageId == "v1024.ebframework");
+        return ModLister.GetActiveModWithIdentifier("v1024.ebframework", true) != null;
     }
 
     public static MethodBase TargetMethod()

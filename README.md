@@ -1,26 +1,28 @@
 # [Callouts (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3552812111)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Captain Muscles (Nathan Harbour)s mod https://steamcommunity.com/sharedfiles/filedetails/?id=2362736503
 Based on Profligates continued version https://steamcommunity.com/sharedfiles/filedetails/?id=2882283988
+
+- Added setting for using non-offensive language in callouts
 
 **Profilgates addition**
 I tried contacting CaptainMuscles and even pushing the 1.4 update directly to the github repo, but he simply ignored me. Therefore, i've just uploaded it to steam workshop.
 In doing so, i've merged functionalities from Callouts Extended and Callouts Expanded also.
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
-![Image](https://i.imgur.com/Mi8ecQv.gif)
+![Image](https://img.litet.net/Mi8ecQv.gif)
 Adds callouts in text form that occasionally appear above a pawn's head when certain in-game events occur.
 
 The callouts use the same grammar rules and concepts as log entries, allowing us to play "Mad-libs" with not only random words, but also the properties of the initiator and recipients of the interaction, their weapons, and the cover they're using (and more soon!)
 
 As an added bonus, wounds sustained by a pawn generate text motes (configurable in settings) as do potentially lethal hediffs advancing in severity. See gif below for an example with everything turned way up.
 
-![Image](https://i.imgur.com/HHFSQHy.gif)
+![Image](https://img.litet.net/HHFSQHy.gif)
 
 [hr][/hr]
 Pawns are more likely to use some callouts over others depending on their traits. 'Kind' or 'wimp' colonists will use 'mild' callouts; 'Abrasive', 'Bloodlust', or 'Psychopath' colonists will use 'spicy' callouts.
@@ -63,7 +65,7 @@ I'm planning on adding quite a bit to this in the future, more callouts, more ca
 ## Settings
 
 [hr][/hr]
-![Image](https://i.imgur.com/a4QHuWa.png)
+![Image](https://img.litet.net/a4QHuWa.png)
 
 **Combat callouts enabled** - Enables/disables all combat callouts.
 **Animal interaction callouts enabled** - Enables/disables all animal interaction callouts.
@@ -86,13 +88,13 @@ Concept: Tallas
 Coding: Captain Muscles
 Inspired by Combat Extended's taunt feature
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -100,4 +102,4 @@ Inspired by Combat Extended's taunt feature
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/Callouts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3552812111) | tags:  combat,  interaction
+[![Image](https://img.shields.io/github/v/release/emipa606/Callouts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3552812111) | tags: combat, interaction

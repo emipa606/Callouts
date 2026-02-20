@@ -11,7 +11,7 @@ public class EBFEndpoints_GetMaxHealthWithEBF
     public static bool Prepare()
     {
         // detect whether the EBF is loaded
-        return LoadedModManager.RunningMods.Any(pack => pack.PackageId == "V1024.EBFramework");
+        return LoadedModManager.RunningMods.Any(pack => pack.PackageId == "v1024.ebframework");
     }
 
     public static MethodBase TargetMethod()
@@ -21,10 +21,11 @@ public class EBFEndpoints_GetMaxHealthWithEBF
     }
 
     [HarmonyReversePatch]
-    public static float GetMaxHealth(BodyPartRecord record, Pawn pawn)
+    public static float GetMaxHealth(BodyPartRecord record, Pawn pawn, bool _ = true)
     {
         // if EBF is loaded, then Harmony replaces the body with the EBF endpoint method
         // else, the reverse-patch fails and the body remains the vanilla GetMaxHealth().
+        // note: the discard parameter is for EBF having an optional "useCache" parameter.
         return record.def.GetMaxHealth(pawn);
     }
 }

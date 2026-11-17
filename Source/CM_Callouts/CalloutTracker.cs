@@ -187,38 +187,30 @@ public sealed class CalloutTracker : WorldComponent
             }
         }
 
-        foreach (var calloutConstantByPawnkindDef in DefDatabase<CalloutConstantByPawnkindDef>.AllDefs)
+        foreach (var calloutConstantByPawnkindDef in DefDatabase<CalloutConstantByPawnkindDef>.AllDefs.Where(def =>
+                     def.pawnKindDefs.Any(pkd => pkd.defName == pawn.kindDef.defName)))
         {
-            if (calloutConstantByPawnkindDef.pawnKindDefs.Any(pkd => pkd.defName == pawn.kindDef.defName))
-            {
-                grammarRequest.Constants[calloutConstantByPawnkindDef.name] = calloutConstantByPawnkindDef.value;
-            }
+            grammarRequest.Constants[calloutConstantByPawnkindDef.name] = calloutConstantByPawnkindDef.value;
         }
 
-        foreach (var calloutConstantByThingDef in DefDatabase<CalloutConstantByThingDef>.AllDefs)
+        foreach (var calloutConstantByThingDef in DefDatabase<CalloutConstantByThingDef>.AllDefs.Where(def =>
+                     def.thingDefs.Any(td => td.defName == pawn.def.defName)))
         {
-            if (calloutConstantByThingDef.thingDefs.Any(td => td.defName == pawn.def.defName))
-            {
-                grammarRequest.Constants[calloutConstantByThingDef.name] = calloutConstantByThingDef.value;
-            }
+            grammarRequest.Constants[calloutConstantByThingDef.name] = calloutConstantByThingDef.value;
         }
 
         if (pawn.health is { hediffSet: not null })
         {
-            foreach (var calloutConstantByHediffDef in DefDatabase<CalloutConstantByHediffDef>.AllDefs)
+            foreach (var calloutConstantByHediffDef in DefDatabase<CalloutConstantByHediffDef>.AllDefs.Where(def =>
+                         def.hediffDefs.Any(hd => pawn.health.hediffSet.HasHediff(hd))))
             {
-                if (calloutConstantByHediffDef.hediffDefs.Any(hd => pawn.health.hediffSet.HasHediff(hd)))
-                {
-                    grammarRequest.Constants[calloutConstantByHediffDef.name] = calloutConstantByHediffDef.value;
-                }
+                grammarRequest.Constants[calloutConstantByHediffDef.name] = calloutConstantByHediffDef.value;
             }
 
-            foreach (var calloutConstantByHediffStage in DefDatabase<CalloutConstantByHediffStage>.AllDefs)
+            foreach (var calloutConstantByHediffStage in DefDatabase<CalloutConstantByHediffStage>.AllDefs.Where(def =>
+                         def.hediffsAndStages.Any(hdas => hasHediffOfStage(pawn, hdas))))
             {
-                if (calloutConstantByHediffStage.hediffsAndStages.Any(hdas => hasHediffOfStage(pawn, hdas)))
-                {
-                    grammarRequest.Constants[calloutConstantByHediffStage.name] = calloutConstantByHediffStage.value;
-                }
+                grammarRequest.Constants[calloutConstantByHediffStage.name] = calloutConstantByHediffStage.value;
             }
         }
 

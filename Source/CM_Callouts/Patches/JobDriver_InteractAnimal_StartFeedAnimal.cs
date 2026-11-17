@@ -17,7 +17,6 @@ public static class JobDriver_InteractAnimal_StartFeedAnimal
         {
             try
             {
-                //FoodUtility.BestFoodInInventory();
                 var initiator = __instance.GetActor();
                 var recipient = initiator.CurJob.GetTarget(tameeInd).Pawn;
                 var methodInfo = typeof(FoodUtility).GetMethod("BestFoodInInventory",

@@ -6,4 +6,27 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="CM_Callouts/CM_Callouts.csproj" />
+  <Folder Name="/XML/1.7/Defs/Effects/">
+    <File Path="../1.7/Defs/Effects/Mote_Special.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/CalloutMore.xml" />
+    <File Path="../Patches/CalloutsExamplePatches.xml" />
+    <File Path="../Patches/Moloy Traits.xml" />
+    <File Path="../Patches/SYRIndividuality.xml" />
+    <File Path="../Patches/Trait.xml" />
+    <File Path="../Patches/Vanilla Traits Expanded.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RulePackDefs/">
+    <File Path="../1.7/Defs/RulePackDefs/CalloutRulepacks.xml" />
+    <File Path="../1.7/Defs/RulePackDefs/CalloutsExample.xml" />
+    <File Path="../1.7/Defs/RulePackDefs/RulePacks_Callouts_Interaction_Animal.xml" />
+    <File Path="../1.7/Defs/RulePackDefs/RulePacks_Callouts.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/CM_Callouts_Keys.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

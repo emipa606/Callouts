@@ -50,7 +50,7 @@ public static class HealthUtility_AdjustSeverity
                 var showWoundLevel = CalloutMod.settings.showWoundLevel;
 
                 // If the pawn is spawned and the current stage should be visible
-                if (pawn.SpawnedOrAnyParentSpawned && currentStage != null && currentStage.becomeVisible)
+                if (pawn.SpawnedOrAnyParentSpawned && currentStage is { becomeVisible: true })
                 {
                     // Do a callout
                     new PendingCalloutEventLethalHediffProgression(pawn, foundHediff).AttemptCallout();

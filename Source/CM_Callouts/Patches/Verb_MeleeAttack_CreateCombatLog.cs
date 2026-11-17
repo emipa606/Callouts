@@ -37,9 +37,5 @@ public static class Verb_MeleeAttack_CreateCombatLog
             CalloutUtility.pendingCallout = new PendingCalloutEventMeleeImpact(__instance.CasterPawn,
                 pawn);
         }
-        else if (rulePackGetter(__instance.maneuver) == __instance.maneuver.combatLogRulesMiss)
-        {
-            // TODO: Melee miss callout
-        }
     }
 }

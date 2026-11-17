@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN:
+    <li>callout_noun_diminutive_person(INITIATOR_gender==Male,BONDED==true)->daddy</li>
+    <li>callout_noun_diminutive_person(INITIATOR_gender==Female,BONDED==true)->mommy</li>
+    <li>callout_noun_diminutive_animal->[RECIPIENT_kind]</li>
+    <li>callout_noun_diminutive_animal(RECIPIENT_gender==Male)->boy</li>
+    <li>callout_noun_diminutive_animal(RECIPIENT_gender==Female)->girl</li>
+    <li>callout_noun_diminutive_animal->buddy</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Common.rulePack.rulesStrings>
+    <li>callout_noun_diminutive_person(INITIATOR_gender==Male,BONDED==true)->daddy</li>
+    <li>callout_noun_diminutive_person(INITIATOR_gender==Female,BONDED==true)->mommy</li>
+    <li>callout_noun_diminutive_animal->[RECIPIENT_kind]</li>
+    <li>callout_noun_diminutive_animal(RECIPIENT_gender==Male)->boy</li>
+    <li>callout_noun_diminutive_animal(RECIPIENT_gender==Female)->girl</li>
+    <li>callout_noun_diminutive_animal->buddy</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Common.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->who wants a treat?</li>
+    <li>rule->how about some yummy [FOOD_label]?</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], how would you like some [FOOD_label]?</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], I'm not gonna hurt ya...</li>
+    <li>rule->nice and steady...</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Feed_Initiated.rulePack.rulesStrings>
+    <li>rule->who wants a treat?</li>
+    <li>rule->how about some yummy [FOOD_label]?</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], how would you like some [FOOD_label]?</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], I'm not gonna hurt ya...</li>
+    <li>rule->nice and steady...</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Feed_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>callout_curse_positive->damn</li>
+    <li>callout_curse_positive->snap</li>
+    <li>callout_curse_positive(MILD!=true)->shit</li>
+    <li>rule->oh [callout_curse_positive], is that [FOOD_label]?</li>
+    <li>rule->hell yeah, gimme some of that [FOOD_label]!</li>
+    <li>rule->yum [FOOD_label], my favorite!</li>
+    <li>rule->alright [INITIATOR_alienRace], you've piqued my interest...</li>
+    <li>rule->is that for me?</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Feed_Received.rulePack.rulesStrings>
+    <li>callout_curse_positive->damn</li>
+    <li>callout_curse_positive->snap</li>
+    <li>callout_curse_positive(MILD!=true)->shit</li>
+    <li>rule->oh [callout_curse_positive], is that [FOOD_label]?</li>
+    <li>rule->hell yeah, gimme some of that [FOOD_label]!</li>
+    <li>rule->yum [FOOD_label], my favorite!</li>
+    <li>rule->alright [INITIATOR_alienRace], you've piqued my interest...</li>
+    <li>rule->is that for me?</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Feed_Received.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->open wide, here comes the airplane!</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], how would you like some [FOOD_label]?</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], everything is going to be alright...</li>
+    <li>rule->nice and steady...</li>
+    <li>rule->have some [FOOD_label], [callout_noun_diminutive_animal]. You'll be good as new in no time.</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Feed_Wounded_Initiated.rulePack.rulesStrings>
+    <li>rule->open wide, here comes the airplane!</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], how would you like some [FOOD_label]?</li>
+    <li>rule->hey there [callout_noun_diminutive_animal], everything is going to be alright...</li>
+    <li>rule->nice and steady...</li>
+    <li>rule->have some [FOOD_label], [callout_noun_diminutive_animal]. You'll be good as new in no time.</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Feed_Wounded_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->oh [callout_curse_positive], is that [FOOD_label]?</li>
+    <li>rule->hell yeah, gimme some of that [FOOD_label]!</li>
+    <li>rule->yum [FOOD_label], my favorite!</li>
+    <li>rule->alright [INITIATOR_alienRace], you've piqued my interest...</li>
+    <li>rule->[callout_noun_meal] in bed? Don't mind if I do...</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Feed_Wounded_Received.rulePack.rulesStrings>
+    <li>rule->oh [callout_curse_positive], is that [FOOD_label]?</li>
+    <li>rule->hell yeah, gimme some of that [FOOD_label]!</li>
+    <li>rule->yum [FOOD_label], my favorite!</li>
+    <li>rule->alright [INITIATOR_alienRace], you've piqued my interest...</li>
+    <li>rule->[callout_noun_meal] in bed? Don't mind if I do...</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Feed_Wounded_Received.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->what a sweet [callout_noun_diminutive_animal] you are!</li>
+    <li>rule->who's a good [callout_noun_diminutive_animal]?</li>
+    <li>rule->who's the best [RECIPIENT_kind] ever?</li>
+    <li>rule->who's [callout_noun_diminutive_person]'s little [callout_noun_diminutive_animal]?</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Nuzzle_Initiated.rulePack.rulesStrings>
+    <li>rule->what a sweet [callout_noun_diminutive_animal] you are!</li>
+    <li>rule->who's a good [callout_noun_diminutive_animal]?</li>
+    <li>rule->who's the best [RECIPIENT_kind] ever?</li>
+    <li>rule->who's [callout_noun_diminutive_person]'s little [callout_noun_diminutive_animal]?</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Nuzzle_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->I can haz treat?</li>
+    <li>rule->who's a good [INITIATOR_alienRace]?</li>
+    <li>rule->rub my belly now, you fool!</li>
+    <li>rule->come here and love on me, ya big dummy!</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Nuzzle_Received.rulePack.rulesStrings>
+    <li>rule->I can haz treat?</li>
+    <li>rule->who's a good [INITIATOR_alienRace]?</li>
+    <li>rule->rub my belly now, you fool!</li>
+    <li>rule->come here and love on me, ya big dummy!</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Nuzzle_Received.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->I'm sorry, little one.</li>
+    <li>rule->see you on the other side, [RECIPIENT_name].</li>
+    <li>rule->sorry [callout_noun_diminutive_animal], but it's got to be done.</li>
+    <li>rule->thank you for your sacrifice, [callout_noun_diminutive_animal].</li>
+    <li>rule(SPICY==true)->guess what I'm having for [callout_noun_meal]? You!</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Slaughter_Initiated.rulePack.rulesStrings>
+    <li>rule->I'm sorry, little one.</li>
+    <li>rule->see you on the other side, [RECIPIENT_name].</li>
+    <li>rule->sorry [callout_noun_diminutive_animal], but it's got to be done.</li>
+    <li>rule->thank you for your sacrifice, [callout_noun_diminutive_animal].</li>
+    <li>rule(SPICY==true)->guess what I'm having for [callout_noun_meal]? You!</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Slaughter_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->was I a good [RECIPIENT_kind]?</li>
+    <li>rule(BONDED==true)->et tu, [INITIATOR_name]?</li>
+    <li>rule->I'll say hello to [callout_noun_afterlife_greeter] for you...</li>
+    <li>rule->my time has come...</li>
+    <li>rule(SPICY==true,p=2)->I hope you choke on me, [callout_insult]!</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Slaughter_Received.rulePack.rulesStrings>
+    <li>rule->was I a good [RECIPIENT_kind]?</li>
+    <li>rule(BONDED==true)->et tu, [INITIATOR_name]?</li>
+    <li>rule->I'll say hello to [callout_noun_afterlife_greeter] for you...</li>
+    <li>rule->my time has come...</li>
+    <li>rule(SPICY==true,p=2)->I hope you choke on me, [callout_insult]!</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Slaughter_Received.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->come on [callout_noun_diminutive_animal], lets go home.</li>
+    <li>rule->come on [RECIPIENT_name], lets go home.</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Tame_Success_Initiated.rulePack.rulesStrings>
+    <li>rule->come on [callout_noun_diminutive_animal], lets go home.</li>
+    <li>rule->come on [RECIPIENT_name], lets go home.</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Tame_Success_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->why the hell not?</li>
+    <li>rule->where the [drug] at?</li>
+    <li>rule->alright [INITIATOR_name], lead the way.</li>
+    <li>drug->yayo</li>
+    <li>drug->beer</li>
+    <li>drug->smokeleaf</li>
+    <li>drug->psychite</li>
+    <li>drug->flake</li>
+    <li>drug->go juice</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Tame_Success_Received.rulePack.rulesStrings>
+    <li>rule->why the hell not?</li>
+    <li>rule->where the [drug] at?</li>
+    <li>rule->alright [INITIATOR_name], lead the way.</li>
+    <li>drug->yayo</li>
+    <li>drug->beer</li>
+    <li>drug->smokeleaf</li>
+    <li>drug->psychite</li>
+    <li>drug->flake</li>
+    <li>drug->go juice</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Tame_Success_Received.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->everything's going to be alright, [RECIPIENT_name].</li>
+    <li>rule->don't worry little [callout_noun_diminutive_animal], I've got you.</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Tend_Initiated.rulePack.rulesStrings>
+    <li>rule->everything's going to be alright, [RECIPIENT_name].</li>
+    <li>rule->don't worry little [callout_noun_diminutive_animal], I've got you.</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Tend_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->seriously, bring me some [drug].</li>
+    <li>rule->thanks. You're alright for a [INITIATOR_alienRace]!</li>
+    <li>drug->yayo</li>
+    <li>drug->beer</li>
+    <li>drug->smokeleaf</li>
+    <li>drug->psychite</li>
+    <li>drug->flake</li>
+    <li>drug->go juice</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Tend_Received.rulePack.rulesStrings>
+    <li>rule->seriously, bring me some [drug].</li>
+    <li>rule->thanks. You're alright for a [INITIATOR_alienRace]!</li>
+    <li>drug->yayo</li>
+    <li>drug->beer</li>
+    <li>drug->smokeleaf</li>
+    <li>drug->psychite</li>
+    <li>drug->flake</li>
+    <li>drug->go juice</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Tend_Received.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->excellent work, [RECIPIENT_name]!</li>
+    <li>rule->nice job, [callout_noun_diminutive_animal]!</li>
+    <li>rule->what a smart [callout_noun_diminutive_animal] you are!</li>
+    <li>rule->you're [callout_noun_diminutive_person]'s brilliant little [RECIPIENT_kind], yes you are!</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Train_Success_Initiated.rulePack.rulesStrings>
+    <li>rule->excellent work, [RECIPIENT_name]!</li>
+    <li>rule->nice job, [callout_noun_diminutive_animal]!</li>
+    <li>rule->what a smart [callout_noun_diminutive_animal] you are!</li>
+    <li>rule->you're [callout_noun_diminutive_person]'s brilliant little [RECIPIENT_kind], yes you are!</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Train_Success_Initiated.rulePack.rulesStrings>
+  <!-- EN:
+    <li>rule->all in a day's work.</li>
+    <li>rule->NOW can I have some [drug]?</li>
+    <li>rule->I guess an old [INITIATOR_alienRace] can teach you new tricks!</li>
+    <li>drug->yayo</li>
+    <li>drug->beer</li>
+    <li>drug->smokeleaf</li>
+    <li>drug->psychite</li>
+    <li>drug->flake</li>
+    <li>drug->go juice</li>
+  -->
+  <CM_Callouts_RulePack_Interaction_Animal_Train_Success_Received.rulePack.rulesStrings>
+    <li>rule->all in a day's work.</li>
+    <li>rule->NOW can I have some [drug]?</li>
+    <li>rule->I guess an old [INITIATOR_alienRace] can teach you new tricks!</li>
+    <li>drug->yayo</li>
+    <li>drug->beer</li>
+    <li>drug->smokeleaf</li>
+    <li>drug->psychite</li>
+    <li>drug->flake</li>
+    <li>drug->go juice</li>
+  </CM_Callouts_RulePack_Interaction_Animal_Train_Success_Received.rulePack.rulesStrings>
+</LanguageData>

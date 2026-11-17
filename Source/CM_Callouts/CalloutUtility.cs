@@ -89,9 +89,6 @@ public static class CalloutUtility
             yield return defRule;
         }
 
-        //yield return new Rule_String(prefix + "_label", thing.def.label);
-        //yield return new Rule_String(prefix + "_definite", Find.ActiveLanguageWorker.WithDefiniteArticle(thing.def.label));
-        //yield return new Rule_String(prefix + "_indefinite", Find.ActiveLanguageWorker.WithIndefiniteArticle(thing.def.label));
         if (thing.Stuff != null)
         {
             yield return new Rule_String($"{prefix}_stuffLabel", thing.Stuff.label);

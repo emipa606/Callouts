@@ -32,13 +32,11 @@ public class PendingCalloutEventDoublePawn(
 
         if (initiator == null)
         {
-            Logger.WarningFormat(this, "Initiator null");
             return;
         }
 
         if (recipient == null)
         {
-            Logger.WarningFormat(this, "Recipient null");
             return;
         }
 
